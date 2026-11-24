@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nguyen Hoang Hung · Google Ads Specialist</title>
+<meta name="description" content="Google Ads specialist in Nha Trang, Vietnam. USD 1M+ managed ad spend across Search, Performance Max, Display, Shopping and YouTube. Open to remote work.">
+<meta property="og:title" content="Nguyen Hoang Hung · Google Ads Specialist">
+<meta property="og:description" content="Google Ads specialist in Nha Trang, Vietnam. USD 1M+ managed ad spend. Builds ad-ops tools with Claude Code. Open to remote work.">
+<meta property="og:image" content="https://jjkim8698.github.io/og.png">
+<meta property="og:url" content="https://jjkim8698.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="photo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+<style>
+:root{
+  --ink:#10232f; --sea:#0b6f7a; --sea-deep:#0a3442; --foam:#f3f7f8; --line:#d3dfe3;
+  --muted:#566a74; --badge:#e7a23a; --paper:#ffffff;
+  --f:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--foam);color:var(--ink);font:16px/1.6 var(--f)}
+a{color:var(--sea)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--badge);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+
+/* Hero: the person + his own "ad" */
+.hero{background:var(--sea-deep);color:#e9f3f5;padding:72px 0 88px}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:56px;align-items:center}
+.who{display:flex;flex-direction:column;gap:20px}
+.who img{width:112px;height:112px;border-radius:50%;object-fit:cover;transform:scale(1.0);border:3px solid #2b6a78}
+.who h1{font-size:clamp(38px,5.6vw,60px);line-height:1.02;letter-spacing:-.025em;margin:0;font-weight:800}
+.who p{margin:0;max-width:34ch;font-size:19px;color:#b9d3d9}
+.who .avail{display:inline-flex;align-items:center;gap:10px;font-size:15px;color:#e9f3f5}
+.who .avail::before{content:"";width:9px;height:9px;border-radius:50%;background:#4fd1a5;box-shadow:0 0 0 4px rgba(79,209,165,.18)}
+
+.ad{background:var(--paper);color:var(--ink);border-radius:14px;padding:26px 28px 22px;box-shadow:0 30px 60px -30px rgba(0,0,0,.55)}
+.ad-top{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--muted)}
+.ad-top b{font-weight:700;color:var(--ink);background:#fff4e2;border:1px solid #f1cf97;border-radius:4px;padding:0 6px;font-size:12.5px}
+.ad h2{font-size:24px;line-height:1.25;margin:10px 0 8px;color:#1a4fd6;font-weight:600;letter-spacing:-.01em}
+.ad .desc{margin:0 0 18px;color:#3c4a52;font-size:15.5px}
+.sitelinks{display:grid;grid-template-columns:1fr 1fr;gap:4px 20px;border-top:1px solid var(--line);padding-top:14px}
+.sitelinks a{text-decoration:none;color:#1a4fd6;font-weight:600;font-size:15px;padding:4px 0}
+.sitelinks a:hover{text-decoration:underline}
+.sitelinks span{display:block;color:var(--muted);font-weight:400;font-size:13.5px}
+
+/* Facts strip */
+.facts{background:var(--paper);border-bottom:1px solid var(--line)}
+.facts dl{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:0;padding:26px 0}
+.facts dl>div{padding:0 20px;border-left:1px solid var(--line)}
+.facts dl>div:first-child{border-left:0;padding-left:0}
+.facts dt{font-size:14px;color:var(--muted)}
+.facts dd{margin:2px 0 0;font-size:21px;font-weight:700;letter-spacing:-.01em}
+
+section.block{padding:72px 0 8px}
+section.block h2{font-size:30px;letter-spacing:-.02em;margin:0 0 6px;font-weight:800}
+section.block .lede{margin:0 0 30px;color:var(--muted);max-width:62ch}
+
+/* Experience as a timeline (real sequence) */
+.timeline{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
+.timeline li{position:relative;padding:0 0 34px 28px}
+.timeline li::before{content:"";position:absolute;left:-7px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--foam);border:2px solid var(--sea)}
+.timeline li:first-child::before{background:var(--sea)}
+.when{font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+.timeline h3{margin:2px 0 2px;font-size:20px}
+.timeline .org{margin:0 0 10px;color:var(--sea);font-weight:600}
+.timeline ul{margin:0;padding-left:18px;max-width:70ch}
+.timeline ul li{padding:0 0 4px;border:0}
+.timeline ul li::before{display:none}
+
+/* Channels */
+.channels{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0;list-style:none}
+.channels li{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:7px 16px;font-weight:600;font-size:15px}
+.skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:30px}
+.skills h3{font-size:17px;margin:0 0 6px}
+.skills p{margin:0;color:#3c4a52;font-size:15.5px}
+
+
+
+/* Case studies: problem, result, screenshot */
+.case{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:40px;align-items:start;padding:36px 0;border-top:1px solid var(--line)}
+.case h3{font-size:22px;line-height:1.25;letter-spacing:-.01em;margin:0 0 10px;text-wrap:balance}
+.case p{margin:0 0 12px;color:#3c4a52;font-size:15.5px;max-width:52ch}
+.case .result{background:#e3f5ee;color:#0d4f39;border-radius:8px;padding:10px 14px}
+.case .result strong{color:#0a3d2c}
+.case .meta{font-size:13.5px;color:var(--muted);margin:0}
+.case figure{margin:0;min-width:0}
+.case img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--line);box-shadow:0 18px 40px -24px rgba(10,52,66,.45)}
+.case figcaption{font-size:13px;color:var(--muted);margin-top:8px}
+.also{color:#3c4a52;font-size:15.5px;border-top:1px solid var(--line);padding-top:20px;margin:0}
+.offer .examples{margin:0 0 26px;padding-left:20px;display:grid;grid-template-columns:1fr 1fr;gap:6px 32px;max-width:820px}
+.btn.dark{background:var(--sea-deep);color:#fff}
+.btn.dark:hover{background:var(--sea)}
+@media (max-width:860px){.case{grid-template-columns:1fr;gap:20px}.offer .examples{grid-template-columns:1fr}}
+
+/* Contact */
+.contact{margin:80px 0 0;background:var(--sea-deep);color:#e9f3f5;padding:64px 0 72px}
+.contact h2{font-size:34px;letter-spacing:-.02em;margin:0 0 8px;font-weight:800}
+.contact p{color:#b9d3d9;margin:0 0 28px;max-width:56ch}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;min-height:46px;padding:0 20px;border-radius:10px;font-weight:700;text-decoration:none;font-size:15.5px;transition:transform .15s ease,background-color .15s ease}
+.btn:active{transform:scale(.97)}
+.btn.primary{background:#fff;color:var(--sea-deep)}
+.btn.ghost{color:#fff;border:1.5px solid #3f7d8b}
+.btn.ghost:hover{background:#0f4352}
+.direct{margin-top:30px;display:flex;flex-wrap:wrap;gap:8px 28px;font-size:15.5px}
+.direct a{color:#e9f3f5}
+footer{background:var(--sea-deep);color:#7fa3ad;font-size:13.5px;padding:0 0 32px}
+
+/* One orchestrated moment: the ad lands */
+@media (prefers-reduced-motion:no-preference){
+  .ad{animation:land .7s cubic-bezier(.2,.8,.2,1) .15s both}
+  @keyframes land{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+}
+
+@media (max-width:860px){
+  .hero{padding:48px 0 56px}
+  .hero .wrap{grid-template-columns:1fr;gap:36px}
+  .facts dl{grid-template-columns:1fr 1fr;row-gap:18px}
+  .facts dl>div:nth-child(3){border-left:0;padding-left:0}
+  .skills{grid-template-columns:1fr}
+  }
+@media (max-width:480px){
+  .ad{padding:22px 18px 18px}
+  .ad h2{font-size:21px}
+  .sitelinks{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="who">
+      <img src="photo.jpg" alt="Portrait of Nguyen Hoang Hung" width="112" height="112">
+      <h1>Nguyen Hoang Hung</h1>
+      <p>Google Ads specialist in Nha Trang, Vietnam. I run Search, Performance Max and YouTube for clients in the US, India and Hong Kong.</p>
+      <span class="avail">Available now for remote work</span>
+    </div>
+
+    <article class="ad" aria-label="Summary written in the shape of a search ad">
+      <div class="ad-top"><b>Ad</b> nguyen-hoang-hung · Nha Trang, Vietnam</div>
+      <h2>Google Ads Specialist | AI Automation Builder | Open to Remote</h2>
+      <p class="desc">Four years in a digital agency running Search, Performance Max, Display, Shopping and YouTube. Clean account structure, GTM and GA4 tracking you can trust, and steady bid and budget work for ROAS and CPA. I also build my own ad-ops tools with Claude Code.</p>
+      <nav class="sitelinks" aria-label="Page sections">
+        <a href="#experience">Experience<span>4 years agency, 1 year freelance</span></a>
+        <a href="#skills">What I run<span>Channels, tracking, reporting</span></a>
+        <a href="#tools">Tools I built<span>Ad-ops apps made with Claude Code</span></a>
+        <a href="#contact">Hire me<span>Email, LinkedIn, CV</span></a>
+      </nav>
+    </article>
+  </div>
+</header>
+
+<div class="facts">
+  <div class="wrap">
+    <dl>
+      <div><dt>Ad spend managed</dt><dd>USD 1M+</dd></div>
+      <div><dt>Years in paid search</dt><dd>5</dd></div>
+      <div><dt>Client markets</dt><dd>US, India, Hong Kong</dd></div>
+      <div><dt>Languages</dt><dd>Vietnamese, English B2</dd></div>
+    </dl>
+  </div>
+</div>
+
+<main>
+<section class="block" id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+    <p class="lede">From a factory floor to running ad accounts for international clients.</p>
+    <ol class="timeline">
+      <li>
+        <div class="when">06/2022 – 06/2026</div>
+        <h3>Google Ads Specialist</h3>
+        <p class="org">Beach City Co., Ltd., digital marketing agency, Nha Trang</p>
+        <ul>
+          <li>Managed Google Ads budgets above USD 1M for e-commerce, finance, trading, lead generation and service businesses.</li>
+          <li>Launched and optimized Search, Performance Max, Display, Remarketing and YouTube campaigns.</li>
+          <li>Set up conversion tracking with Google Tag Manager and GA4; built performance reports in Looker Studio.</li>
+          <li>Worked directly with clients in the US, India and Hong Kong.</li>
+        </ul>
+      </li>
+      <li>
+        <div class="when">06/2021 – 06/2022</div>
+        <h3>Freelance Google Ads</h3>
+        <p class="org">Self-employed, Nha Trang</p>
+        <ul><li>Taught myself Google Ads and ran campaigns for small clients.</li></ul>
+      </li>
+      <li>
+        <div class="when">06/2020 – 06/2021</div>
+        <h3>Technical Staff</h3>
+        <p class="org">Khanh Hoa Salangane Nest Company</p>
+        <ul><li>Ran and maintained production-line equipment; proposed technical improvements.</li></ul>
+      </li>
+      <li>
+        <div class="when">2016 – 2020</div>
+        <h3>B.Eng. Electrical and Electronics Engineering</h3>
+        <p class="org">Nha Trang University</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="block" id="skills">
+  <div class="wrap">
+    <h2>What I run</h2>
+    <p class="lede">Campaign types I launch and optimize every week.</p>
+    <ul class="channels">
+      <li>Search</li><li>Performance Max</li><li>Display</li><li>Shopping</li><li>YouTube</li><li>Remarketing</li>
+    </ul>
+    <div class="skills">
+      <div><h3>Build</h3><p>Keyword and competitor research, campaign and ad-group structure, negative keywords, ad copy and landing page tests.</p></div>
+      <div><h3>Measure</h3><p>Conversion tracking with Google Tag Manager and GA4, Looker Studio dashboards, reports in Sheets and Excel.</p></div>
+      <div><h3>Optimize</h3><p>Bidding strategy, budget pacing, ROAS and CPA targets, creative and landing page changes based on data.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="tools">
+  <div class="wrap">
+    <h2>Tools I built</h2>
+    <p class="lede">Running ads involves a lot of repetitive work around the campaigns. I design a tool for each recurring job and build it with Claude Code, usually in days, not months.</p>
+
+    <div class="case">
+      <div class="case-text">
+        <h3>Stop paying for searches that never convert</h3>
+        <p>Accounts leak budget on search terms nobody has time to review. Pulsemoon reads the search-terms export from Google Ads, finds the terms that spend without converting, and gives a negative-keyword list ready to paste back into the account.</p>
+        <p class="result"><strong>On a sample report:</strong> 8 negative keywords found, USD 380 of non-converting spend flagged, in under a minute.</p>
+        <p class="meta">Pulsemoon · first version built in 1 day · reads files only, never changes the account</p>
+      </div>
+      <figure><img src="img/pulse-crop.jpg" alt="Pulsemoon check-up report listing suggested negative keywords with their cost" loading="lazy" width="1040" height="940"><figcaption>Sample data. Interface in Vietnamese.</figcaption></figure>
+    </div>
+
+    <div class="case">
+      <div class="case-text">
+        <h3>Know where every top-up dollar went</h3>
+        <p>Top-ups, card fees and daily spend across many ad accounts usually live in a messy spreadsheet. Topmoon reads Google payment receipts and morning performance screenshots, records each top-up with the net amount after fees, and reconciles it with what was spent.</p>
+        <p class="result"><strong>Built and put live in 1 day.</strong> I use it every morning for my own accounts.</p>
+        <p class="meta">Topmoon · web app on my own server · OCR for receipts and screenshots</p>
+      </div>
+      <figure><img src="img/topmoon-ledger.jpg" alt="Topmoon top-up ledger with dates, account IDs, amounts paid and net amounts" loading="lazy" width="1100" height="653"><figcaption>Sample data. Interface in Vietnamese.</figcaption></figure>
+    </div>
+
+    <div class="case">
+      <div class="case-text">
+        <h3>Ad accounts and top-ups, without the back-and-forth</h3>
+        <p>ADSMoon lets small businesses open Google Ads and Microsoft Ads accounts and top them up, with every fee shown before they pay. Behind it, the operations side connects several MCCs through the Google Ads API and imports each account's daily spend.</p>
+        <p class="result"><strong>In production</strong> with customer sign-up, payments ledger and an operations dashboard.</p>
+        <p class="meta">ADSMoon · Google Ads API, multi-MCC · customer portal and operations side</p>
+      </div>
+      <figure><img src="img/ads-crop.jpg" alt="ADSMoon home page explaining ad accounts and top-ups with an example account ledger" loading="lazy" width="1100" height="584"><figcaption>ADSMoon home page.</figcaption></figure>
+    </div>
+
+    <p class="also">Also built: <strong>Searchmoon</strong>, a competitor research tool that shows the ads a competitor runs, their site's traffic rank and keyword checks by location.</p>
+  </div>
+</section>
+
+<section class="block offer" id="build">
+  <div class="wrap">
+    <h2>Want a tool like this for your team?</h2>
+    <p class="lede">Tell me the task your team repeats every week. I'll reply within 48 hours with what I would build and how long it would take.</p>
+    <ul class="examples">
+      <li>Client reports that build themselves from Google Ads exports</li>
+      <li>Daily checks that flag overspending or paused campaigns</li>
+      <li>Top-up and invoice tracking across many ad accounts</li>
+      <li>Search-term clean-up and negative-keyword lists</li>
+    </ul>
+    <a class="btn dark" href="mailto:phachuuthien1998@gmail.com?subject=Tool%20idea">Send me your task</a>
+  </div>
+</section>
+</main>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Need ads run, or a tool built?</h2>
+    <p>I'm available now for full-time remote roles, freelance Google Ads accounts, and custom ad-ops tools built with Claude Code for your team. I reply within a day.</p>
+    <div class="actions">
+      <a class="btn primary" href="mailto:phachuuthien1998@gmail.com">Email me</a>
+      <a class="btn ghost" href="CV-Nguyen-Hoang-Hung-EN.pdf" download>Download CV (English)</a>
+      <a class="btn ghost" href="CV-Nguyen-Hoang-Hung-VI.pdf" download>Tải CV (Tiếng Việt)</a>
+    </div>
+    <div class="direct">
+      <a href="mailto:phachuuthien1998@gmail.com">phachuuthien1998@gmail.com</a>
+      <a href="tel:+84326796665">+84 326 796 665</a>
+      <a href="https://www.linkedin.com/in/nguyen-hoang-hung-687345344/">LinkedIn</a>
+    </div>
+  </div>
+</section>
+<footer><div class="wrap">Nha Trang, Khanh Hoa, Vietnam</div></footer>
+</body>
+</html>
